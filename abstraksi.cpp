@@ -17,6 +17,8 @@ class AbstraksiKlas {
     }
 };
 
+
+// untuk menjalankannya
 int main() {
     AbstraksiKlas ak;
     ak.setXY("Yogyakarta", "Kampus");
