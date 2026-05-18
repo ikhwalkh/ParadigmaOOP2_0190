@@ -35,3 +35,17 @@ class RekeningSyariah : public RekeningBank
         cout << "Rekening Syariah bebas biaya admin." << endl;
     }
 }; 
+
+
+class RekeningKonvensional : public RekeningBank
+{
+public:
+    RekeningKonvensional(string nama, double saldoAwal)
+        : RekeningBank(nama, saldoAwal) {}
+
+    void potongAdmin() override
+    {
+        saldo -= 15000;
+        cout << "Biaya admin Rp 15.000 berhasil dipotong." << endl;
+    }
+};
