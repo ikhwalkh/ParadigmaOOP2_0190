@@ -79,7 +79,7 @@ int main() {
 
     rekening1 = new RekeningSyariah("Ryukatsuya", 5000000);
     rekening2 = new RekeningKonvensional("Jokowi", 7000000);
-    rekening3 = new RekeningPremium("ikhwal", 12000000);
+    rekening3 = new RekeningPremium("Gibran", 12000000);
 
     rekening1->potongAdmin();
     rekening1->tampilkanSaldo();
