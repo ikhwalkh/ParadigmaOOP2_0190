@@ -23,7 +23,7 @@ class lia :public seseorang {
         }
 };
 
-
+//untuk menjalankan
 int main() {
     seseorang* obyek;
     joko a;
