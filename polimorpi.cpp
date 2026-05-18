@@ -9,6 +9,7 @@ class seseorang {
            cout <<"pesan dari seseorang" <<endl;}
 };
 
+// memakai pesan virtual
 class joko :public seseorang {
     public:
          void pesan() {
