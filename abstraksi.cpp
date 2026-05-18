@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// class abstrak
 class AbstraksiKlas {
     private: string x, y;
 
