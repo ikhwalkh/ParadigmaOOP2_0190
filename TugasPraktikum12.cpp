@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <iomanip>
 using namespace std;
 
 class RekeningBank {
@@ -18,6 +19,7 @@ class RekeningBank {
 
     void tampilkanSaldo() {
         cout << "Nama Nasabah : " << namaNasabah << endl;
+        cout << fixed << setprecision(0);
         cout << "Saldo Akhir  : Rp " << saldo << endl;
         cout << "-----------------------------" << endl;
     }
